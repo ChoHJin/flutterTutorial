@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup name Generator',
+      theme: ThemeData(
+        primaryColor: Colors.green,
+        appBarTheme: const AppBarTheme(
+          shadowColor: Colors.white,
+          backgroundColor: Colors.green,
+        ),
+      ),
       home: RandomWords(),
     );
   }
