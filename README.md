@@ -8,5 +8,5 @@ https://flutter-ko.dev/docs/get-started/codelab
 ###~~1단계 : Starter Flutter app 만들기~~ __(완)__
 ###~~2단계 : 외부 패키지 이용하기~~ **(완)**
 ###~~3단계 : Stateful 위젯 추가하기~~ **(완)** 
-### 4단계 : 무한 스크롤 ListView 생성하기
+###~~4단계 : 무한 스크롤 ListView 생성하기~~ **(완)**
 ### 5단계 : Profile or release runs
